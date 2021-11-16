@@ -1,0 +1,25 @@
+{
+  "name": "backend-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "dotenv": "^10.0.0",
+    "expres": "^0.0.5",
+    "express": "^4.17.1",
+    "handler": "^0.1.3",
+    "hbs": "^4.1.2",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
